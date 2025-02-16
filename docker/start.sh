@@ -14,7 +14,7 @@ if [ ! -e "$destination_dir" ]; then
     mkdir "$destination_dir"
 fi
 
-chmod -R 777 "$destination_dir"
+#chmod -R 777 "$destination_dir"
 
 # 检查是否存在锁文件
 if [ ! -e "$lock_file" ]; then
